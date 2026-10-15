@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int a;
+    int t;
   	printf("nhap so: ");
-	scanf("%d", &a);
+	scanf("%d", &t);
 	
-	if (a < 15){
+	if (t < 15){
 		printf("LANH");
-	} else if (a < 25){
+	} else if (t < 25){
 		printf("MAT");
-	} else if ( a < 35){
+	} else if ( t < 35){
 		printf ("NONG");
 	} else {
 		printf("RAT NONG");
