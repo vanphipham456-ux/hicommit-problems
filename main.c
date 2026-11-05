@@ -2,8 +2,8 @@
 
 int main() {
   int xep loai;
-  scanf("%d", &xep loai);
-  switch(xep loai){
+  scanf("%d", &xeploai);
+  switch(xeploai){
     case 1:
       printf("XEP_LOAI_XUAT_SAC");
       break;
